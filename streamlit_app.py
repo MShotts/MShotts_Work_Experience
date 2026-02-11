@@ -21,7 +21,9 @@ df_years_exp=pd.DataFrame({
     "Years_Experience": [16,15,11,5,4,4]
 })
 
-years_exp_chart = alt.Chart(df_years_exp).mark_bar().encode(
+years_exp_chart = alt.Chart(df_years_exp).mark_bar(
+    color='#86BBD8'
+).encode(
     x=alt.X('Years_Experience',title='Years of Experience',axis=alt.Axis(tickCount=5)),
     y=alt.Y('Domain',sort='-x',title=None)
 ).configure(
