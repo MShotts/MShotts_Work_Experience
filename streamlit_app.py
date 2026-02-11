@@ -36,17 +36,17 @@ years_exp_chart = alt.Chart(df_years_exp).mark_bar().encode(
 )
 st.altair_chart(years_exp_chart, use_container_width=False)
 
-st.markdown('<span style="font-size:22px; color:#FFFFFF">Drove enterprise-level analytics strategy and execution across healthcare, retail, and assessment organizations:</span>', unsafe_allow_html=True)
+st.markdown('<span style="font-size:22px; color:#DAF7DC">Drove enterprise-level analytics strategy and execution across healthcare, retail, and assessment organizations:</span>', unsafe_allow_html=True)
 st.markdown('<span style="font-size:14px; color:#FFFFFF">Delivering cost savings (six-figure annual vendor fee reductions), improved decision-making, and scalable data products used by hundreds of users weekly.</span>', unsafe_allow_html=True)
 
-st.markdown('<span style="font-size:22px; color:#FFFFFF">Built and led high-performing analytics and visualization teams:</span>', unsafe_allow_html=True)
+st.markdown('<span style="font-size:22px; color:#DAF7DC">Built and led high-performing analytics and visualization teams:</span>', unsafe_allow_html=True)
 st.markdown('<span style="font-size:14px; color:#FFFFFF">Recruiting and developing talent, defining roles and operating models, and stabilizing organizations through change including re-organizations that reduced team size by 50% yet had no disruption to service or user experience.</span>', unsafe_allow_html=True)
 
-st.markdown('<span style="font-size:22px; color:#FFFFFF">Designed and operationalized modern data platforms and semantic layers:</span>', unsafe_allow_html=True)
+st.markdown('<span style="font-size:22px; color:#DAF7DC">Designed and operationalized modern data platforms and semantic layers:</span>', unsafe_allow_html=True)
 st.markdown('<span style="font-size:14px; color:#FFFFFF">Standing up a Power BI ecosystem (Center of Excellence, standards, governance, and support) and contributing to the launch of new healthcare and assessment products.</span>', unsafe_allow_html=True)
 
-st.markdown('<span style="font-size:22px; color:#FFFFFF">Partnered cross-functionally with executives, internal stakeholders, and external vendors:</span>', unsafe_allow_html=True)
+st.markdown('<span style="font-size:22px; color:#DAF7DC">Partnered cross-functionally with executives, internal stakeholders, and external vendors:</span>', unsafe_allow_html=True)
 st.markdown('<span style="font-size:14px; color:#FFFFFF">Resolving complex data and process issues, validating third-party solutions, and representing analytics functions to senior leadership and international clients.</span>', unsafe_allow_html=True)
 
-st.markdown('<span style="font-size:22px; color:#FFFFFF">Delivered sustained efficiency and quality improvements:</span>', unsafe_allow_html=True)
+st.markdown('<span style="font-size:22px; color:#DAF7DC">Delivered sustained efficiency and quality improvements:</span>', unsafe_allow_html=True)
 st.markdown('<span style="font-size:14px; color:#FFFFFF">Modernizing systems and statistical models, introducing agile delivery practices, and reducing critical workflows by up to 3-4 weeks while maintaining accuracy, compliance, and stakeholder trust.</span>', unsafe_allow_html=True)
