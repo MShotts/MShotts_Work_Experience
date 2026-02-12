@@ -14,45 +14,45 @@ st.markdown("""
 st.markdown('<span style="font-size:48px; color:#9EE493">**Improving Processes**</span>', unsafe_allow_html=True)
 st.write("")
 
-# ipxp_col1, ipxp_col2, ipxp_col3 = st.columns(3)
-#
-# with ipxp_col1:
-#     st.markdown('''
-#         <div style="text-align: center;">
-#             <p style="color: #FFFFFF; font-size: 18px; margin-bottom: 0px;">
-#                 Different Industries
-#             </p>
-#             <h1 style="color: #DAF7DC; font-size: 42px; margin: 0; margin-top:0;">
-#                 3
-#             </h1>
-#         </div>
-#         ''', unsafe_allow_html=True)
-#
-# with ipxp_col2:
-#     st.markdown('''
-#         <div style="text-align: center;">
-#             <p style="color: #FFFFFF; font-size: 18px; margin-bottom: 0px;">
-#                 Metrics calculated
-#             </p>
-#             <h1 style="color: #DAF7DC; font-size: 42px; margin: 0; margin-top:0;">
-#                 ~500
-#             </h1>
-#         </div>
-#         ''', unsafe_allow_html=True)
-#
-# with ipxp_col3:
-#     st.markdown('''
-#         <div style="text-align: center;">
-#             <p style="color: #FFFFFF; font-size: 18px; margin-bottom: 0px;">
-#                 Ad hoc requests completed
-#             </p>
-#             <h1 style="color: #DAF7DC; font-size: 42px; margin: 0; margin-top:0;">
-#                 ~1000
-#             </h1>
-#         </div>
-#         ''', unsafe_allow_html=True)
-#
-# st.write("")
+ipxp_col1, ipxp_col2, ipxp_col3 = st.columns(3)
+
+with ipxp_col1:
+    st.markdown('''
+        <div style="text-align: center;">
+            <p style="color: #FFFFFF; font-size: 18px; margin-bottom: 0px;">
+                Weeks cut from processing
+            </p>
+            <h1 style="color: #DAF7DC; font-size: 42px; margin: 0; margin-top:0;">
+                3
+            </h1>
+        </div>
+        ''', unsafe_allow_html=True)
+
+with ipxp_col2:
+    st.markdown('''
+        <div style="text-align: center;">
+            <p style="color: #FFFFFF; font-size: 18px; margin-bottom: 0px;">
+                Supported users
+            </p>
+            <h1 style="color: #DAF7DC; font-size: 42px; margin: 0; margin-top:0;">
+                ~1000
+            </h1>
+        </div>
+        ''', unsafe_allow_html=True)
+
+with ipxp_col3:
+    st.markdown('''
+        <div style="text-align: center;">
+            <p style="color: #FFFFFF; font-size: 18px; margin-bottom: 0px;">
+                Ad hoc requests completed
+            </p>
+            <h1 style="color: #DAF7DC; font-size: 42px; margin: 0; margin-top:0;">
+                ~1000
+            </h1>
+        </div>
+        ''', unsafe_allow_html=True)
+
+st.write("")
 
 st.markdown('<span style="font-size:22px; color:#DAF7DC">Overview:</span>', unsafe_allow_html=True)
 st.markdown('<span style="font-size:14px; color:#FFFFFF">Matthew began his career using legacy proprietary tools developed decades ago. This early exposure to the inefficiencies and tech debt of legacy systems, as well as an ever-increasing work scope, prompted Matthew to embrace new tools as available. This began with leveraging SAS to handle most incoming analysis and reporting work with an emphasis on file processing and management to avoid the manual processing performed by other teams in the department. His team happily adopted this mindset and successfully decreased processing times across the board with a notable accomplishment being a 3-4 week reduction in the processing of an externally published annual report.  As data visualizations tools became more prominent, Matthew leaped at the chance to stand up Power BI as the reporting platform for Burlington Stores. While there, he also simultaneously supported the transition from on-premise to a cloud data warehouse, Snowflake. The Power BI reports that he and the team delivered dramatically improved the speed with which the business got results.  What previously could take hours was now available within seconds while also allowing slicing and dicing that was not previously possible. Matthew moved to build on that success by joining a startup subsidiary within Horizon Blue Cross Blue Shield named NovaOne Health. At NovaOne, he contributed to the development of various data products within the dbt semantic layer built on top of AWS Redshift and provided insights via AWS Quicksuite. He joined just as the NovaOne began operations with its first customer and fielded questions from the business and the customer about the user base and claims activity.  </span>', unsafe_allow_html=True)
