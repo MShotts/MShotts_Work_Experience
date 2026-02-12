@@ -16,30 +16,8 @@ st.markdown("""
 st.markdown('<span style="font-size:48px; color:#9EE493">**Matthew Shotts**</span>', unsafe_allow_html=True)
 st.markdown('<span style="font-size:22px; color:#DAF7DC">People Manager Experience</span>', unsafe_allow_html=True)
 
-# df_years_exp=pd.DataFrame({
-#     "Domain": ["Project Mgmt","People Mgmt","SAS/SQL","DataViz/PBI","Cloud DW","Agile"],
-#     "Years_Experience": [16,15,11,5,4,4]
-# })
-#
-# years_exp_chart = alt.Chart(df_years_exp).mark_bar(
-#     color='#86BBD8'
-# ).encode(
-#     x=alt.X('Years_Experience',title='Years of Experience',axis=alt.Axis(tickCount=5)),
-#     y=alt.Y('Domain',sort='-x',title=None)
-# ).configure(
-#     background='transparent'
-# ).configure_axis(
-#     labelColor='#FFFFFF',
-#     titleColor='#FFFFFF'
-# ).properties(
-#     width=510,
-#     height=250
-# )
-# st.altair_chart(years_exp_chart, use_container_width=False)
-
-st.markdown('<span style="font-size:22px; color:#DAF7DC">Work in progress</span>', unsafe_allow_html=True)
-st.markdown('<span style="font-size:14px; color:#FFFFFF">Work in progress</span>', unsafe_allow_html=True)
-
-# Use the following in terminal (lower side ribbon) to run the app
-# streamlit run C:\Users\DrShotts\PycharmProjects\Streamlit\Streamlit_Test.py
-
+st.markdown('<span style="font-size:22px; color:#DAF7DC">Empowering staff</span>', unsafe_allow_html=True)
+st.markdown('<span style="font-size:14px; color:#FFFFFF">Matthew has supervised as many as 12 staff.  This team was comprised of 9 direct reports and 3 consultants.</span>', unsafe_allow_html=True)
+st.markdown('<span style="font-size:14px; color:#FFFFFF">During his tenure as manager, Matthew has promoted many team members to higher job titles and increased levels of responsibility.</span>', unsafe_allow_html=True)
+st.markdown('<span style="font-size:14px; color:#FFFFFF">Two staff previously mentored by Matthew have been promoted to managerial positions.</span>', unsafe_allow_html=True)
+st.markdown('<span style="font-size:14px; color:#FFFFFF">His teams had excellent retention with only one team member leaving for another company.  Additionally, two team members actually followed Matthew from ETS to Burlington Stores </span>', unsafe_allow_html=True)
