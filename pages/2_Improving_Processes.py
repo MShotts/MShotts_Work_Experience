@@ -20,10 +20,10 @@ with ipxp_col1:
     st.markdown('''
         <div style="text-align: center;">
             <p style="color: #FFFFFF; font-size: 18px; margin-bottom: 0px;">
-                Weeks cut from processing
+                Max of weeks cut from process
             </p>
             <h1 style="color: #DAF7DC; font-size: 42px; margin: 0; margin-top:0;">
-                3
+                4
             </h1>
         </div>
         ''', unsafe_allow_html=True)
