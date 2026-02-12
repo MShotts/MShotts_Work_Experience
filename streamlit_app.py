@@ -5,10 +5,10 @@ import altair as alt
 
 # st.sidebar.header("TBD")
 
-page_name=st.navigation([
-    st.Page("Streamlit_Test.py", title="Home page"),
-    st.Page("pages/Page2_PeopleXP.py", title="People Manager")
-])
+# page_name=st.navigation([
+#     st.Page("Streamlit_Test.py", title="Home page"),
+#     st.Page("pages/Page2_PeopleXP.py", title="People Manager")
+# ])
 # page_name.run()
 
 st.markdown("""
