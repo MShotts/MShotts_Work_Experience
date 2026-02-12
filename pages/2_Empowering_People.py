@@ -13,7 +13,7 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-st.markdown('<span style="font-size:48px; color:#9EE493">**People Manager**</span>', unsafe_allow_html=True)
+st.markdown('<span style="font-size:48px; color:#9EE493">**Empowering People**</span>', unsafe_allow_html=True)
 st.write("")
 
 pexp_col1, pexp_col2, pexp_col3 = st.columns(3)
@@ -64,3 +64,4 @@ st.markdown('<span style="font-size:14px; color:#FFFFFF">Initiated monthly train
 
 # Use the following in terminal (lower side ribbon) to run the app
 # streamlit run C:\Users\DrShotts\PycharmProjects\Streamlit\streamlit_app.py
+
