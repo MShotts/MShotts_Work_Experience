@@ -32,10 +32,10 @@ with ipxp_col2:
     st.markdown('''
         <div style="text-align: center;">
             <p style="color: #FFFFFF; font-size: 18px; margin-bottom: 0px;">
-                Supported users
+                Cloud platform migrations
             </p>
             <h1 style="color: #DAF7DC; font-size: 42px; margin: 0; margin-top:0;">
-                ~1000
+                3
             </h1>
         </div>
         ''', unsafe_allow_html=True)
@@ -44,7 +44,7 @@ with ipxp_col3:
     st.markdown('''
         <div style="text-align: center;">
             <p style="color: #FFFFFF; font-size: 18px; margin-bottom: 0px;">
-                Ad hoc requests completed
+                Supported users
             </p>
             <h1 style="color: #DAF7DC; font-size: 42px; margin: 0; margin-top:0;">
                 ~1000
@@ -72,5 +72,3 @@ st.markdown('<span style="font-size:14px; color:#FFFFFF">Burlington Stores had ~
 # Use the following in terminal (lower side ribbon) to run the app
 
 # streamlit run C:\Users\DrShotts\PycharmProjects\Streamlit\streamlit_app.py
-
-
