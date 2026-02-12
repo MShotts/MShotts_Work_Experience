@@ -20,7 +20,7 @@ with ipxp_col1:
     st.markdown('''
         <div style="text-align: center;">
             <p style="color: #FFFFFF; font-size: 18px; margin-bottom: 0px;">
-                Max of weeks cut from process
+                Max weeks cut from process
             </p>
             <h1 style="color: #DAF7DC; font-size: 42px; margin: 0; margin-top:0;">
                 4
@@ -72,3 +72,4 @@ st.markdown('<span style="font-size:14px; color:#FFFFFF">Burlington Stores had ~
 # Use the following in terminal (lower side ribbon) to run the app
 
 # streamlit run C:\Users\DrShotts\PycharmProjects\Streamlit\streamlit_app.py
+
