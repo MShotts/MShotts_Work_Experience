@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 import altair as alt
 
-st.sidebar.header("TBD")
+# st.sidebar.header("TBD")
 
 st.markdown("""
     <style>
@@ -42,3 +42,4 @@ st.markdown('<span style="font-size:14px; color:#FFFFFF">Work in progress</span>
 
 # Use the following in terminal (lower side ribbon) to run the app
 # streamlit run C:\Users\DrShotts\PycharmProjects\Streamlit\Streamlit_Test.py
+
