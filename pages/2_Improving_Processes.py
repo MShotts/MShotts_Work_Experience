@@ -37,7 +37,7 @@ st.sidebar.markdown(
             font-size: 14px;
             width: 100%;
         ">
-            🔗 Example: Predicting Attrition with HR Data
+            👥 Example: Predicting Attrition with HR Data
         </button>
     </a>
     """,
@@ -109,5 +109,6 @@ with st.expander("Click for details"):
 # Use the following in terminal (lower side ribbon) to run the app
 
 # streamlit run C:\Users\DrShotts\PycharmProjects\Streamlit\streamlit_app.py
+
 
 
