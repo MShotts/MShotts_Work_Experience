@@ -5,6 +5,7 @@ import altair as alt
 
 # st.sidebar.header("TBD")
 
+# Change background color
 st.markdown("""
     <style>
     .stApp {
@@ -13,7 +14,29 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-st.markdown('<span style="font-size:48px; color:#9EE493">**Empowering People**</span>', unsafe_allow_html=True)
+# Add clickable link in sidebar
+st.sidebar.markdown(
+    """
+    <a href="https://hrretentionmshotts.streamlit.app/" target="_blank">
+        <button style="
+            background-color: transparent;
+            color: white;
+            padding: 0px 0px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            width: 100%;
+        ">
+            🔗 Example: Predicting Attrition with HR Data
+        </button>
+    </a>
+    """,
+    unsafe_allow_html=True
+)
+
+
+st.markdown('<span style="font-size:48px; color:#9EE493">**Empowering Staff**</span>', unsafe_allow_html=True)
 st.write("")
 
 pexp_col1, pexp_col2, pexp_col3 = st.columns(3)
@@ -64,4 +87,3 @@ st.markdown('<span style="font-size:14px; color:#FFFFFF">Initiated monthly train
 
 # Use the following in terminal (lower side ribbon) to run the app
 # streamlit run C:\Users\DrShotts\PycharmProjects\Streamlit\streamlit_app.py
-
