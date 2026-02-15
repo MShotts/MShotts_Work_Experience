@@ -5,6 +5,7 @@ import altair as alt
 
 # st.sidebar.header("TBD")
 
+# Controls the background color
 st.markdown("""
     <style>
     .stApp {
@@ -23,6 +24,27 @@ st.markdown("""
     }
     </style>
     """, unsafe_allow_html=True)
+
+# Add clickable link in sidebar
+st.sidebar.markdown(
+    """
+    <a href="https://hrretentionmshotts.streamlit.app/" target="_blank">
+        <button style="
+            background-color: transparent;
+            color: white;
+            padding: 0px 0px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            width: 100%;
+        ">
+            🔗 Example: Predicting Attrition with HR Data
+        </button>
+    </a>
+    """,
+    unsafe_allow_html=True
+)
 
 
 st.markdown('<span style="font-size:48px; color:#9EE493">**Delivering Insights**</span>', unsafe_allow_html=True)
@@ -85,5 +107,5 @@ st.markdown('<span style="font-size:22px; color:#DAF7DC">Expanding Product Insig
 with st.expander("Click for details"):
     st.markdown('<span style="font-size:14px; color:#FFFFFF">To increase the appeal of an assessment, the test was expanded to assess additional skills.  To facilitate this change, Matthew finalized the test changes with the test developers, translated those changes into technical requirements, collaborated with IT to implement the necessary changes while also overseeing the changes needed for his own processes and systems.  He made extensive contributions to the validation efforts and the change was launched without issue.</span>', unsafe_allow_html=True)
 
-
-
+# Use the following in terminal (lower side ribbon) to run the app
+# streamlit run C:\Users\DrShotts\PycharmProjects\Streamlit\streamlit_app.py
