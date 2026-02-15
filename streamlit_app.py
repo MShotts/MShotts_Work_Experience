@@ -44,6 +44,9 @@ st.markdown('<span style="font-size:48px; color:#9EE493">**Matthew Shotts**</spa
 st.markdown('<span style="font-size:22px; color:#DAF7DC">Delivering Insights | Improving Processes | Empowering Staff</span>', unsafe_allow_html=True)
 
 st.link_button("Linkedin Profile", 'https://www.linkedin.com/in/mattshotts/')
+st.write("")
+st.markdown('<span style="font-size:14px; color:#FFFFFF">Data analytics leader with extensive experience delivering well-structured data and impactful insights, coordinating successful platform migrations, and building high-performing teams.</span>', unsafe_allow_html=True)
+st.write("")
 
 df_years_exp=pd.DataFrame({
     "Domain": ["Project Mgmt","People Mgmt","SAS/SQL","DataViz/PBI","Cloud DW","Agile"],
