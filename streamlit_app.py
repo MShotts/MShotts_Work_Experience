@@ -23,7 +23,7 @@ st.sidebar.markdown(
     <a href="https://hrretentionmshotts.streamlit.app/" target="_blank">
         <button style="
             background-color: transparent;
-            color: #9EE493;
+            color: #336699;
             padding: 0px 0px;
             border: none;
             border-radius: 5px;
