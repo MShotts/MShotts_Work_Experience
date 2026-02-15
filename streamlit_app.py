@@ -20,6 +20,36 @@ st.markdown("""
 # Add clickable link in sidebar
 st.sidebar.markdown(
     """
+    <a href="https://www.linkedin.com/in/mattshotts/" target="_blank">
+        <button style="
+            background-color: transparent;
+            color: #336699;
+            padding: 0px 0px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            width: 100%;
+            text-align: left;
+        ">
+            👤 Linkedin Profile
+        </button>
+    </a>
+        <a href="https://github.com/MShotts" target="_blank">
+        <button style="
+            background-color: transparent;
+            color: #336699;
+            padding: 0px 0px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            width: 100%;
+            text-align: left;
+        ">
+            👤 Github Profile
+        </button>
+    </a>
     <a href="https://hrretentionmshotts.streamlit.app/" target="_blank">
         <button style="
             background-color: transparent;
@@ -30,8 +60,9 @@ st.sidebar.markdown(
             cursor: pointer;
             font-size: 14px;
             width: 100%;
+            text-align: left;
         ">
-            👥 Example: Predicting Attrition with HR Data
+            📈 Example: Predicting Attrition with HR Data
         </button>
     </a>
     """,
@@ -43,7 +74,12 @@ st.sidebar.markdown(
 st.markdown('<span style="font-size:48px; color:#9EE493">**Matthew Shotts**</span>', unsafe_allow_html=True)
 st.markdown('<span style="font-size:22px; color:#DAF7DC">Delivering Insights | Improving Processes | Empowering Staff</span>', unsafe_allow_html=True)
 
-st.link_button("Linkedin Profile", 'https://www.linkedin.com/in/mattshotts/')
+# hxp_col1, hxp_col2 = st.columns(2)
+# with hxp_col1:
+#     st.link_button("Linkedin Profile", 'https://www.linkedin.com/in/mattshotts/')
+# with hxp_col2:
+#     st.link_button("Github", 'https://github.com/MShotts')
+
 st.write("")
 st.markdown('<span style="font-size:14px; color:#FFFFFF">Data analytics leader with extensive experience delivering well-structured data and impactful insights, coordinating successful platform migrations, and building high-performing teams.</span>', unsafe_allow_html=True)
 st.write("")
