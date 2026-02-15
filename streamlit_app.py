@@ -3,13 +3,11 @@ import streamlit as st
 import pandas as pd
 import altair as alt
 
-# st.sidebar.header("TBD")
-
-# page_name=st.navigation([
-#     st.Page("Streamlit_Test.py", title="Home page"),
-#     st.Page("pages/Page2_PeopleXP.py", title="People Manager")
-# ])
-# page_name.run()
+st.set_page_config(
+    page_title="Home"  # Browser tab title
+    # page_icon="🏠",
+    # layout="wide"
+)
 
 st.markdown("""
     <style>
@@ -19,8 +17,33 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
+# Add clickable link in sidebar
+st.sidebar.markdown(
+    """
+    <a href="https://hrretentionmshotts.streamlit.app/" target="_blank">
+        <button style="
+            background-color: transparent;
+            color: white;
+            padding: 0px 0px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            width: 100%;
+        ">
+            🔗 Example: Predicting Attrition with HR Data
+        </button>
+    </a>
+    """,
+    unsafe_allow_html=True
+)
+
+# st.badge("Work in progress")
+
 st.markdown('<span style="font-size:48px; color:#9EE493">**Matthew Shotts**</span>', unsafe_allow_html=True)
 st.markdown('<span style="font-size:22px; color:#DAF7DC">Delivering Insights | Improving Processes | Empowering Staff</span>', unsafe_allow_html=True)
+
+st.link_button("Linkedin Profile", 'https://www.linkedin.com/in/mattshotts/')
 
 df_years_exp=pd.DataFrame({
     "Domain": ["Project Mgmt","People Mgmt","SAS/SQL","DataViz/PBI","Cloud DW","Agile"],
@@ -58,3 +81,6 @@ st.markdown('<span style="font-size:14px; color:#FFFFFF">Resolving complex data 
 
 st.markdown('<span style="font-size:22px; color:#DAF7DC">Delivered sustained efficiency and quality improvements:</span>', unsafe_allow_html=True)
 st.markdown('<span style="font-size:14px; color:#FFFFFF">Modernizing systems and statistical models, introducing agile delivery practices, and reducing critical workflows by up to 3-4 weeks while maintaining accuracy, compliance, and stakeholder trust.</span>', unsafe_allow_html=True)
+
+# Use the following in terminal (lower side ribbon) to run the app
+# streamlit run C:\Users\DrShotts\PycharmProjects\Streamlit\streamlit_app.py
