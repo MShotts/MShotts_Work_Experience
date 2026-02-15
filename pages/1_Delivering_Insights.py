@@ -13,17 +13,13 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-# Change expander header and expander text colors
+# Change expander header colors
+# Place font-weight: bold; after the font size line to make it bold
 st.markdown("""
     <style>
-    .streamlit-expanderHeader {
+    div[data-testid="stExpander"] details summary p {
         color: #FFFFFF;
         font-size: 18px;
-        font-weight: bold;
-    }
- 
-    .streamlit-expanderContent {
-        color: #FFFFFF;  /* Blue color */
     }
     </style>
     """, unsafe_allow_html=True)
@@ -88,5 +84,6 @@ with st.expander("Click for details"):
 st.markdown('<span style="font-size:22px; color:#DAF7DC">Expanding Product Insights for Customers</span>', unsafe_allow_html=True)
 with st.expander("Click for details"):
     st.markdown('<span style="font-size:14px; color:#FFFFFF">To increase the appeal of an assessment, the test was expanded to assess additional skills.  To facilitate this change, Matthew finalized the test changes with the test developers, translated those changes into technical requirements, collaborated with IT to implement the necessary changes while also overseeing the changes needed for his own processes and systems.  He made extensive contributions to the validation efforts and the change was launched without issue.</span>', unsafe_allow_html=True)
+
 
 
