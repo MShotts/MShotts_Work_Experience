@@ -31,7 +31,7 @@ st.sidebar.markdown(
             font-size: 14px;
             width: 100%;
         ">
-            🔗 Example: Predicting Attrition with HR Data
+            👥 Example: Predicting Attrition with HR Data
         </button>
     </a>
     """,
