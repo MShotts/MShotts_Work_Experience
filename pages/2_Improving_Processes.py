@@ -23,6 +23,27 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
+# Add clickable link in sidebar
+st.sidebar.markdown(
+    """
+    <a href="https://hrretentionmshotts.streamlit.app/" target="_blank">
+        <button style="
+            background-color: transparent;
+            color: white;
+            padding: 0px 0px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            width: 100%;
+        ">
+            🔗 Example: Predicting Attrition with HR Data
+        </button>
+    </a>
+    """,
+    unsafe_allow_html=True
+)
+
 
 st.markdown('<span style="font-size:48px; color:#9EE493">**Improving Processes**</span>', unsafe_allow_html=True)
 st.write("")
@@ -85,4 +106,6 @@ with st.expander("Click for details"):
 # st.markdown('<span style="font-size:22px; color:#DAF7DC">Semantic Layer Development</span>', unsafe_allow_html=True)
 # st.markdown('<span style="font-size:14px; color:#FFFFFF">Shortage is a significant concern for retailers and novel methods to detect and manage it are necessary. Performing inventories is time-intensive and are only possible several times each year. During his time as temporary Data Science Manager, Matthew and the Data Science team worked with Shortage to define a method by which recurring store activities could predict shrink.  The team landed on using the discrepancy between recorded inventory numbers versus the number of markdown scans performed on merchandise.  There were limitations to this method since markdowns are performed after a product has been in the inventory for some time.  To compensate, results were summarized at a higher level of the product hierarchy to give store staff a sense of what product categories were currently most at-risk in their specific store. Immediately after the its launch, the insights from the SIR helped the Shortage team identify a store team member who had thrown $20k of shoes away rather than stocking shelves.</span>', unsafe_allow_html=True)
 
+# Use the following in terminal (lower side ribbon) to run the app
 
+# streamlit run C:\Users\DrShotts\PycharmProjects\Streamlit\streamlit_app.py
