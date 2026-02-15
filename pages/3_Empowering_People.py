@@ -20,7 +20,7 @@ st.sidebar.markdown(
     <a href="https://hrretentionmshotts.streamlit.app/" target="_blank">
         <button style="
             background-color: transparent;
-            color: #9EE493;
+            color: #336699;
             padding: 0px 0px;
             border: none;
             border-radius: 5px;
@@ -87,4 +87,5 @@ st.markdown('<span style="font-size:14px; color:#FFFFFF">Initiated monthly train
 
 # Use the following in terminal (lower side ribbon) to run the app
 # streamlit run C:\Users\DrShotts\PycharmProjects\Streamlit\streamlit_app.py
+
 
