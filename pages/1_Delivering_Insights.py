@@ -28,6 +28,36 @@ st.markdown("""
 # Add clickable link in sidebar
 st.sidebar.markdown(
     """
+    <a href="https://www.linkedin.com/in/mattshotts/" target="_blank">
+        <button style="
+            background-color: transparent;
+            color: #336699;
+            padding: 0px 0px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            width: 100%;
+            text-align: left;
+        ">
+            👤 Linkedin Profile
+        </button>
+    </a>
+        <a href="https://github.com/MShotts" target="_blank">
+        <button style="
+            background-color: transparent;
+            color: #336699;
+            padding: 0px 0px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            width: 100%;
+            text-align: left;
+        ">
+            👤 Github Profile
+        </button>
+    </a>
     <a href="https://hrretentionmshotts.streamlit.app/" target="_blank">
         <button style="
             background-color: transparent;
@@ -38,8 +68,9 @@ st.sidebar.markdown(
             cursor: pointer;
             font-size: 14px;
             width: 100%;
+            text-align: left;
         ">
-            👥 Example: Predicting Attrition with HR Data
+            📈 Example: Predicting Attrition with HR Data
         </button>
     </a>
     """,
@@ -109,6 +140,3 @@ with st.expander("Click for details"):
 
 # Use the following in terminal (lower side ribbon) to run the app
 # streamlit run C:\Users\DrShotts\PycharmProjects\Streamlit\streamlit_app.py
-
-
-
