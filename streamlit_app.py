@@ -32,7 +32,7 @@ st.sidebar.markdown(
             width: 100%;
             text-align: left;
         ">
-            👤 Linkedin Profile
+            👤 Linkedin
         </button>
     </a>
         <a href="https://github.com/MShotts" target="_blank">
@@ -47,7 +47,7 @@ st.sidebar.markdown(
             width: 100%;
             text-align: left;
         ">
-            👤 Github Profile
+            👤 Github
         </button>
     </a>
     <a href="https://hrretentionmshotts.streamlit.app/" target="_blank">
@@ -74,11 +74,6 @@ st.sidebar.markdown(
 st.markdown('<span style="font-size:48px; color:#9EE493">**Matthew Shotts**</span>', unsafe_allow_html=True)
 st.markdown('<span style="font-size:22px; color:#DAF7DC">Delivering Insights | Improving Processes | Empowering Staff</span>', unsafe_allow_html=True)
 
-# hxp_col1, hxp_col2 = st.columns(2)
-# with hxp_col1:
-#     st.link_button("Linkedin Profile", 'https://www.linkedin.com/in/mattshotts/')
-# with hxp_col2:
-#     st.link_button("Github", 'https://github.com/MShotts')
 
 st.write("")
 st.markdown('<span style="font-size:14px; color:#FFFFFF">Data analytics leader with extensive experience delivering well-structured data and impactful insights, coordinating successful platform migrations, and building high-performing teams.</span>', unsafe_allow_html=True)
@@ -106,20 +101,17 @@ years_exp_chart = alt.Chart(df_years_exp).mark_bar(
 )
 st.altair_chart(years_exp_chart, use_container_width=False)
 
-st.markdown('<span style="font-size:22px; color:#DAF7DC">Drove enterprise-level analytics strategy and execution across healthcare, retail, and assessment organizations:</span>', unsafe_allow_html=True)
-st.markdown('<span style="font-size:14px; color:#FFFFFF">Delivering cost savings (six-figure annual vendor fee reductions), improved decision-making, and scalable data products used by hundreds of users weekly.</span>', unsafe_allow_html=True)
-
-st.markdown('<span style="font-size:22px; color:#DAF7DC">Built and led high-performing analytics and visualization teams:</span>', unsafe_allow_html=True)
-st.markdown('<span style="font-size:14px; color:#FFFFFF">Recruiting and developing talent, defining roles and operating models, and stabilizing organizations through change including re-organizations that reduced team size by 50% yet had no disruption to service or user experience.</span>', unsafe_allow_html=True)
-
-st.markdown('<span style="font-size:22px; color:#DAF7DC">Designed and operationalized modern data platforms and semantic layers:</span>', unsafe_allow_html=True)
-st.markdown('<span style="font-size:14px; color:#FFFFFF">Standing up a Power BI ecosystem (Center of Excellence, standards, governance, and support) and contributing to the launch of new healthcare and assessment products.</span>', unsafe_allow_html=True)
-
-st.markdown('<span style="font-size:22px; color:#DAF7DC">Partnered cross-functionally with executives, internal stakeholders, and external vendors:</span>', unsafe_allow_html=True)
-st.markdown('<span style="font-size:14px; color:#FFFFFF">Resolving complex data and process issues, validating third-party solutions, and representing analytics functions to senior leadership and international clients.</span>', unsafe_allow_html=True)
-
-st.markdown('<span style="font-size:22px; color:#DAF7DC">Delivered sustained efficiency and quality improvements:</span>', unsafe_allow_html=True)
-st.markdown('<span style="font-size:14px; color:#FFFFFF">Modernizing systems and statistical models, introducing agile delivery practices, and reducing critical workflows by up to 3-4 weeks while maintaining accuracy, compliance, and stakeholder trust.</span>', unsafe_allow_html=True)
+# Write Scannable bullets of experience
+st.markdown('<span style="font-size:14px; color:#9EE493">**Drove enterprise-level analytics strategy and execution across healthcare, retail, and assessment organizations:** </span>'
+            '<span style="font-size:14px; color:#FFFFFF">Delivering cost savings (six-figure annual vendor fee reductions), improved decision-making, and scalable data products used by hundreds of users weekly.</span>', unsafe_allow_html=True)
+st.markdown('<span style="font-size:14px; color:#9EE493">**Built and led high-performing analytics and visualization teams:** </span>'
+    '<span style="font-size:14px; color:#FFFFFF"> Recruiting and developing talent, defining roles and operating models, and stabilizing organizations through change including re-organizations that reduced team size by 50% yet had no disruption to service or user experience.</span>', unsafe_allow_html=True)
+st.markdown('<span style="font-size:14px; color:#9EE493">**Designed and operationalized modern data platforms and semantic layers:** </span>'
+    '<span style="font-size:14px; color:#FFFFFF">Standing up a Power BI ecosystem (Center of Excellence, standards, governance, and support) and contributing to the launch of new healthcare and assessment products.</span>', unsafe_allow_html=True)
+st.markdown('<span style="font-size:14px; color:#9EE493">**Partnered cross-functionally with executives, internal stakeholders, and external vendors:** </span>'
+    '<span style="font-size:14px; color:#FFFFFF">Resolving complex data and process issues, validating third-party solutions, and representing analytics functions to senior leadership and international clients.</span>', unsafe_allow_html=True)
+st.markdown('<span style="font-size:14px; color:#9EE493">**Delivered sustained efficiency and quality improvements:** </span>'
+    '<span style="font-size:14px; color:#FFFFFF">Modernizing systems and statistical models, introducing agile delivery practices, and reducing critical workflows by up to 3-4 weeks while maintaining accuracy, compliance, and stakeholder trust.</span>', unsafe_allow_html=True)
 
 # Use the following in terminal (lower side ribbon) to run the app
 # streamlit run C:\Users\DrShotts\PycharmProjects\Streamlit\streamlit_app.py
