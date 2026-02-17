@@ -40,7 +40,7 @@ st.sidebar.markdown(
             width: 100%;
             text-align: left;
         ">
-            👤 Linkedin Profile
+            👤 Linkedin
         </button>
     </a>
         <a href="https://github.com/MShotts" target="_blank">
@@ -55,7 +55,7 @@ st.sidebar.markdown(
             width: 100%;
             text-align: left;
         ">
-            👤 Github Profile
+            👤 Github
         </button>
     </a>
     <a href="https://hrretentionmshotts.streamlit.app/" target="_blank">
@@ -140,3 +140,4 @@ with st.expander("Click for details"):
 
 # Use the following in terminal (lower side ribbon) to run the app
 # streamlit run C:\Users\DrShotts\PycharmProjects\Streamlit\streamlit_app.py
+
